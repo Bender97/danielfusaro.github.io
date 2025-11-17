@@ -42,7 +42,7 @@
       <br>
       <div>
         <span class="image avatar">
-            <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=BF-qCIIAAAAJ&citpid=1" class="img1" id="avatar-image" onclick="switchImage()">
+            <img src="data/mypics/photo_me.jpeg" class="img1" id="avatar-image" onclick="switchImage()">
         </span>
       </div>
       <span><h1><b>Daniel Fusaro</b></h1></span>
@@ -2954,9 +2954,9 @@ Recent Publications
   function switchImage() {
       const img = document.getElementById('avatar-image');
       if (isOriginal) {
-          img.src = './images/lingdong-avatar2.jpg'; // Set to the new image
+          img.src = 'data/mypics/photo_me.jpeg'; // Set to the new image
       } else {
-          img.src = './images/lingdong-avatar3.jpg'; // Set back to the original image
+          img.src = 'data/mypics/photo_me.jpeg'; // Set back to the original image
       }
       isOriginal = !isOriginal; // Toggle the state
   }
