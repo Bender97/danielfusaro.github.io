@@ -29,7 +29,7 @@
   <link rel="icon" href="https://danielfusaro_placeholder.com/images/logo/nus-soc.jpg" type="image/x-icon">
 
   <!-- Preload the following -->
-  <link rel="preload" as="image" href="https://danielfusaro_placeholder.com/images/lingdong-avatar.jpg">
+  <link rel="preload" as="image" href="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=BF-qCIIAAAAJ&citpid=1">
   <link rel="preload" as="font" href="./data2/css" crossorigin="anonymous">
 
   <script defer="" src="./data2/new.js"></script>
@@ -42,7 +42,7 @@
       <br>
       <div>
         <span class="image avatar">
-            <img src="./data2/lingdong-avatar3.jpg" class="img1" id="avatar-image" onclick="switchImage()">
+            <img src="data/mypics/photo_me.jpeg" class="img1" id="avatar-image" onclick="switchImage()">
         </span>
       </div>
       <span><h1><b>Daniel Fusaro</b></h1></span>
@@ -2954,9 +2954,9 @@ Recent Publications
   function switchImage() {
       const img = document.getElementById('avatar-image');
       if (isOriginal) {
-          img.src = './images/lingdong-avatar2.jpg'; // Set to the new image
+          img.src = 'data/mypics/photo_me.jpeg'; // Set to the new image
       } else {
-          img.src = './images/lingdong-avatar3.jpg'; // Set back to the original image
+          img.src = 'data/mypics/photo_me.jpeg'; // Set back to the original image
       }
       isOriginal = !isOriginal; // Toggle the state
   }
