@@ -24,7 +24,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     // Set "Selected" as the default option on page load
-    filterPublications("Selected");
+    filterPublications("all");
 });
 
 function filterPublications(type) {
